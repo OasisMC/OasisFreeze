@@ -1,0 +1,10 @@
+name: OasisFreeze
+main: oasismc.oasisfreeze.OasisFreeze
+version: 1
+author: Oliver Martin (Revilo410)
+commands:
+   freeze:
+      description: Freezes a player to stop them moving, interacting with blocks, or sending commands
+      usage: /freeze <player>
+      permission: oasisfreeze.freeze
+      permission-message: You are not allowed to freeze players! Need oasisfreeze.freeze
